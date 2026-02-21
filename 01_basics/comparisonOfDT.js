@@ -12,5 +12,12 @@ console.log(null == 0); // false
 
  console.log(null >= 0); // true
 // The >= comparison also converts null to a number (0).
+const arr =()=>{ 
+    console.log("hello")
+}
+const abc="abc"
+const obj ={
 
+}
 // It becomes 0 >= 0, which is true.
+console.log(typeof obj)
